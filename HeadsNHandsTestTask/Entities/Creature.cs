@@ -8,19 +8,19 @@ namespace HeadsNHandsTestTask.Entities
 {
     internal abstract class Creature
     {
-        public double Strength;
+        public double Strength { get; }
 
-        public double Deffence;
+        public double Deffence { get; }
 
-        public double Health;
+        public double Health { get; set; }
 
-        public int DamageLowest;
-        
-        public int DamageHighest;
+        public int DamageLowest { get; }
 
-        public double MaxHealth;
+        public int DamageHighest { get; }
 
-        public bool Alive;
+        public double MaxHealth { get; }
+
+        public bool Alive { get; set; }
 
         public uint AvailibleHeal = 4;
 

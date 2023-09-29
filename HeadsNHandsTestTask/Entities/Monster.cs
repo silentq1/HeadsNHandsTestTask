@@ -70,7 +70,6 @@ namespace HeadsNHandsTestTask.Entities
                 Console.WriteLine("Монстр больше не может восстановить здоровье.");
             }
             else
-            if (AvailibleHeal > 0 && Alive)
             {
                 if (Health + (MaxHealth * 0.3) >= MaxHealth)
                 {

@@ -8,6 +8,11 @@ monster.Attack(player);
 player.Attack(monster);
 monster.Heal();
 monster.Attack(player);
+player.Heal();
+player.Heal();
+player.Heal();
+player.Heal();
+player.Heal();
 player.GetPlayerInfo();
 monster.GetMonsterInfo();
 
